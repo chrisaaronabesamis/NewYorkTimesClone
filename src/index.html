@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Stay updated with the latest breaking news, politics, sports, technology, and world news from the New York Times.">
+    <meta name="keywords" content="news, breaking news, politics, world news, sports, technology, science, health, arts, opinion">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'YOUR_TRACKING_ID');
+    </script>
+
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" as="style" onload="this.rel='stylesheet'">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="script.js" defer></script>
+    
+    <title>News Website | New York Times</title>
+</head>
+<body>
+
+<nav class="navbar glass-effect">
+    <header class="logo">
+        <h1>New York Times</h1>
+    </header>
+    <div class="menu-container">
+        <ul class="menu">
+            <li><a href="#" id="home" class="active">Home</a></li>
+            <li><a href="#" id="politics">Politics</a></li>
+            <li><a href="#" id="world">World</a></li>
+            <li><a href="#" id="technology">Technology</a></li>
+            <li><a href="#" id="science">Science</a></li>
+            <li><a href="#" id="sports">Sports</a></li>
+            <li><a href="#" id="health">Health</a></li>
+            <li><a href="#" id="arts">Arts</a></li>
+            <li><a href="#" id="opinion">Opinion</a></li>
+        </ul>
+    </div>
+    <div class="menu-btn" aria-label="Menu Button">
+        <i class="fa fa-bars"></i>
+    </div>
+</nav>
+
+<div id="headlines" class="headlines-container">
+    <h2 id="topicTitle">All</h2> 
+    <div class="article-grid">
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer-content">
+        <p>&copy; 2024. For Educational Purposes Only.</p>
+    </div>
+    <img src="https://res.cloudinary.com/dfuglnaz2/image/upload/v1727571374/nyy_kgluzq.png" alt="New York Times Logo" width="100">
+</footer>
+
+</body>
+</html>
